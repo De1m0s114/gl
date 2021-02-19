@@ -1,6 +1,8 @@
 import unittest
 
-
+def rem_last_element(list):
+    list.remove(list[-1])
+    return list
 class TestListMethods(unittest.TestCase):
     def test_Yegor_Panasuk_FI94(self):
         list=[1, 2, 3, 4, 5, 6]
