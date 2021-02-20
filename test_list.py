@@ -17,10 +17,10 @@ class TestListMethods(unittest.TestCase):
         self.assertEqual(2, 2)
 
     def test_Yegor_Panasuk_FI94(self):
-        list=[1, 2, 3, 4, 5, 6]
-        self.assertEqual(rem_last_element(list),[1, 2, 3, 4, 5])
+        list = [1, 2, 3, 4, 5, 6]
+        self.assertEqual(rem_last_element(list), [1, 2, 3, 4, 5])
 
 
 if __name__ == '__main__':
-   unittest.main()
+    unittest.main()
 
